@@ -61,7 +61,7 @@ public class UniformadminloginUNF_016 {
 	ordersPOM.clickcheckbox();
 	ordersPOM.delete();
 	//ordersPOM.alertaccept(); // Delete the selected order
-	ordersPOM.alertdismiss();  // Cancel the selected orders for deletion
+	ordersPOM.alertdismiss();  // Cancel the selected orders for delete
   }
 	
 	@AfterMethod
