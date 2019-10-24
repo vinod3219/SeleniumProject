@@ -9,7 +9,7 @@ public class ProductreturnsPOM {
 private WebDriver driver;
 	
 	public ProductreturnsPOM(WebDriver driver) {
-		this.driver = driver; 
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		}
 	

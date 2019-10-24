@@ -19,7 +19,7 @@ public class DashboardPOM {
 	private WebElement cart;
 	
 	@FindBy(xpath="//li[@id='sale']/ul/li[1]/a")
-    private WebElement Orders;	
+    private WebElement Orders;
 	
 	@FindBy(xpath="//a[contains(text(),'Recurring Orders')]")
     private WebElement RecurringOrders;	

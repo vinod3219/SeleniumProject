@@ -57,7 +57,7 @@ public class UniformadminloginUNF_018 {
 	dashboardPOM.shoppingcart();
 	dashboardPOM.clickreturnslink();
 	productreturnsPOM.returnid("168");
-	productreturnsPOM.clickfilterBtn(); // click on filter button
+	productreturnsPOM.clickfilterBtn(); // click on filter button to get the values
 	
   }
 	

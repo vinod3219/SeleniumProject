@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AdminloginPOM {
-	private WebDriver driver; 
+	private WebDriver driver;
 	
 	public AdminloginPOM(WebDriver driver) {
 		this.driver = driver; 

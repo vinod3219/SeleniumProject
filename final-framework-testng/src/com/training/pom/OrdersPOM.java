@@ -10,7 +10,7 @@ public class OrdersPOM {
 	private WebDriver driver;
 	
 	public OrdersPOM(WebDriver driver) {
-		this.driver = driver; 
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		}
 	

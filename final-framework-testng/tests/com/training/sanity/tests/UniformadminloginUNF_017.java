@@ -57,7 +57,7 @@ public class UniformadminloginUNF_017 {
 	dashboardPOM.shoppingcart();
 	dashboardPOM.clickrecurringOrderslink();
 	recurringOrdersPOM.recurringid("133");
-	recurringOrdersPOM.clickfilterBtn(); // click on filter button
+	recurringOrdersPOM.clickfilterBtn(); // click on filter button to get the values
 	
   }
  

@@ -9,7 +9,7 @@ public class RecurringOrdersPOM {
 	private WebDriver driver;
 	
 	public RecurringOrdersPOM(WebDriver driver) {
-		this.driver = driver; 
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		}
 	
