@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26481" started-at="2019-10-24T10:10:05Z" finished-at="2019-10-24T10:10:32Z">
+  <suite name="Default suite" duration-ms="34566" started-at="2019-10-24T12:13:35Z" finished-at="2019-10-24T12:14:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26481" started-at="2019-10-24T10:10:05Z" finished-at="2019-10-24T10:10:32Z">
+    <test name="Default test" duration-ms="34566" started-at="2019-10-24T12:13:35Z" finished-at="2019-10-24T12:14:09Z">
       <class name="com.training.sanity.tests.UniformadminloginUNF_018">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="setUpBeforeClass" is-config="true" duration-ms="8" started-at="2019-10-24T15:40:05Z" finished-at="2019-10-24T15:40:05Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2019-10-24T17:43:35Z" finished-at="2019-10-24T17:43:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="setUp" is-config="true" duration-ms="6725" started-at="2019-10-24T15:40:05Z" finished-at="2019-10-24T15:40:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="setUp" is-config="true" duration-ms="7590" started-at="2019-10-24T17:43:35Z" finished-at="2019-10-24T17:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Customer()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="Customer" duration-ms="7098" started-at="2019-10-24T15:40:12Z" finished-at="2019-10-24T15:40:19Z">
+        <test-method status="PASS" signature="Customer()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="Customer" duration-ms="7100" started-at="2019-10-24T17:43:42Z" finished-at="2019-10-24T17:43:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Customer -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="afterMethod" is-config="true" duration-ms="20" started-at="2019-10-24T15:40:19Z" finished-at="2019-10-24T15:40:19Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="afterMethod" is-config="true" duration-ms="3373" started-at="2019-10-24T17:43:49Z" finished-at="2019-10-24T17:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="setUp" is-config="true" duration-ms="5840" started-at="2019-10-24T15:40:19Z" finished-at="2019-10-24T15:40:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="setUp" is-config="true" duration-ms="5845" started-at="2019-10-24T17:43:53Z" finished-at="2019-10-24T17:43:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ReturnIDCheck()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="ReturnIDCheck" duration-ms="6733" started-at="2019-10-24T15:40:25Z" finished-at="2019-10-24T15:40:32Z">
+        <test-method status="PASS" signature="ReturnIDCheck()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="ReturnIDCheck" duration-ms="7423" started-at="2019-10-24T17:43:58Z" finished-at="2019-10-24T17:44:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReturnIDCheck -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="afterMethod" is-config="true" duration-ms="28" started-at="2019-10-24T15:40:32Z" finished-at="2019-10-24T15:40:32Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="afterMethod" is-config="true" duration-ms="3198" started-at="2019-10-24T17:44:06Z" finished-at="2019-10-24T17:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="afterClass" is-config="true" duration-ms="2" started-at="2019-10-24T15:40:32Z" finished-at="2019-10-24T15:40:32Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.training.sanity.tests.UniformadminloginUNF_018@724af044]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-24T17:44:09Z" finished-at="2019-10-24T17:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
