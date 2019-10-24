@@ -57,7 +57,7 @@ public class UniformadminloginUNF_018 {
 	dashboardPOM.shoppingcart();
 	dashboardPOM.clickreturnslink();
 	productreturnsPOM.returnid("168");
-	productreturnsPOM.clickfilterBtn();
+	productreturnsPOM.clickfilterBtn(); // click on filter button
 	
   }
 	
@@ -70,7 +70,7 @@ public class UniformadminloginUNF_018 {
 		dashboardPOM.shoppingcart();
 		dashboardPOM.clickreturnslink();
 		productreturnsPOM.customername("arun p");
-		productreturnsPOM.clickfilterBtn();
+		productreturnsPOM.clickfilterBtn(); // click on filter button
 		
 	  }
  
