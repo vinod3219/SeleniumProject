@@ -18,8 +18,17 @@ public class DashboardPOM {
 	@FindBy(xpath="//i[@class='fa fa-shopping-cart fa-fw']")
 	private WebElement cart;
 	
+	@FindBy(xpath="//i[@class='fa fa-tags fa-fw']")
+	private WebElement catelog;
+	
 	@FindBy(xpath="//li[@id='sale']/ul/li[1]/a")
     private WebElement Orders;
+	
+	@FindBy(xpath="//a[contains(text(),'Categories')]")
+    private WebElement Categories;
+	
+	@FindBy(xpath="//li[@id='catalog']//ul//li//a[contains(text(),'Products')]")
+    private WebElement Products;
 	
 	@FindBy(xpath="//a[contains(text(),'Recurring Orders')]")
     private WebElement RecurringOrders;	
@@ -39,6 +48,18 @@ public class DashboardPOM {
 		action.moveToElement(cart).build().perform();
 	}
 	
+	public void catelog()
+	{
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Actions action = new Actions(driver);
+		action.moveToElement(catelog).build().perform();
+	}
+	
 	public void clickorderlink() {
 		try {
 			Thread.sleep(2000);
@@ -47,6 +68,26 @@ public class DashboardPOM {
 			e.printStackTrace();
 		}
 		this.Orders.click(); 
+	}
+	
+	public void clickcategories() {
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		this.Categories.click(); 
+	}
+	
+	public void clickproducts() {
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		this.Products.click(); 
 	}
 	
 	public void clickrecurringOrderslink() {

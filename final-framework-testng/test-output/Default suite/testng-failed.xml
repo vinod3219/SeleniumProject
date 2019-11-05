@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.UniformadminloginUNF_016">
+      <class name="com.training.sanity.tests.UniformadminloginUNF_048">
         <methods>
-          <include name="Adminlogin"/>
-          <include name="afterClass"/>
-          <include name="setUpBeforeClass"/>
+          <include name="Adminlogin1"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
+          <include name="setUpBeforeClass"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.UniformadminloginUNF_016 -->
+      </class> <!-- com.training.sanity.tests.UniformadminloginUNF_048 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
